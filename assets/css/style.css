@@ -1,0 +1,81 @@
+body {
+    background-image: url("../images/background_img.jpg");
+    background-repeat: repeat;
+  }
+  
+  #screen {
+    overflow: auto;
+  }
+  
+  #screen div {
+    float: left;
+  }
+  
+  #title {
+    width: 200px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: red;
+  }
+  
+  #rules-area {
+    width: 400px;
+    height: 250px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: gold;
+  }
+  
+  #random-area {
+    width: 75px;
+    height: 50px;
+    padding: 4px;
+    font-size: 3vw;
+    color: white;
+    background-color: mediumseagreen;
+  }
+  
+  #score-area {
+    width: 75px;
+    height: 50px;
+    padding: 4px;
+    color: ghostwhite;
+    background-color: gray;
+  }
+  
+  #score-title {
+    width: 125px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: gray;
+  }
+  
+  .crystals-button {
+    display: inline;
+  }
+  
+  .crystal-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: purple;
+  }
+  
+  #score-number {
+    font-size: 3vw;
+  }
+  
+  #win-area {
+    height: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: blue;
+  }
+  
